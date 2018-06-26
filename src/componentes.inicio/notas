@@ -1,0 +1,59 @@
+firebase deploy
+firebase init
+npm run build
+npm run dev
+---------------
+vue init <template-name> <project-name>
+vue init webpack-simple my-project
+--------------------
+seccion trivias:
+    nueva trivia::
+        -Nombre  o decripcion de la Trivia ||||(FECHA INICIO)
+        ================================================
+            (1)Escriba la 1ra pregunta
+                a)Escriba 1ra opcion
+                b)Escriba 2da opcion
+                c)Escriba 3ra opcion
+                d)Escriba 4ta opcion
+                __________________________
+                Seleccione la respuesta correcta
+                    a,b,c,d (.)
+                _______________________||Agregar||___
+                
+        ==============================================
+                
+            
+    lista trivias;;
+        
+### Validar los campos
+### Tener los datos y verificar existencia en firebase
+### Mostrar el usuario en sesion                        |||||
+### leer las trivias // ya casi( separar jugadas y creadas) ademas ver las disponibles para jugar
+### Manejo de tiempos
+### vs code
+### localstorage 
+###  hora de API solo  validar 
+## isset
+###  select por 
+-----------------------------
+Lista de de trivias disponibles.
+        ## Comparar fechas DB vs API
+        
+        
+-----------------------------------------------------
+https://sd-rusia.firebaseapp.com
+-----------------------------------------------------
+--------------------------------------------------
+        <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCxJZvYQkQYgMf9GRzJCXtq3RSMX_qjlLI",
+    authDomain: "sd-rusia.firebaseapp.com",
+    databaseURL: "https://sd-rusia.firebaseio.com",
+    projectId: "sd-rusia",
+    storageBucket: "sd-rusia.appspot.com",
+    messagingSenderId: "828871986717"
+  };
+  firebase.initializeApp(config);
+</script>
